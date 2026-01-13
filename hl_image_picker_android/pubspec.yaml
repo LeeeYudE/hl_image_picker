@@ -12,7 +12,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  hl_image_picker_platform_interface: ^1.2.4
+  hl_image_picker_platform_interface:
+    git:
+      url: https://github.com/LeeeYudE/hl_image_picker.git
+      path: hl_image_picker_platform_interface
 
 dev_dependencies:
   flutter_test:
