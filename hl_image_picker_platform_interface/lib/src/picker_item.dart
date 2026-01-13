@@ -28,7 +28,7 @@ class HLPickerItem {
         id: json['id'],
         name: json['name'],
         mimeType: json['mimeType'],
-        size: json['size'],
+        size: json['size']??0,
         width: json['width'],
         height: json['height'],
         duration: json['duration'],
